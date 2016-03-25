@@ -9,7 +9,7 @@ This is where the full description at the site where the data was obtained:
 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-Process
+###Process
 
 The script run_analysis.R performs the following process to clean up the data and create tiny data sets:
 
@@ -41,7 +41,7 @@ subject_test <- read.table("./UCI HAR Dataset/test/subject_test.txt", header = F
 
 Output
 
-#tidy-UCI-HAR-dataset.txt
+tidy-UCI-HAR-dataset.txt
 
 tidy-UCI-HAR-dataset.txt is data frame.
 
