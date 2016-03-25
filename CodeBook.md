@@ -1,15 +1,15 @@
 ##This is a CodeBook for Cleaning Data
 
 
-#Source of the original data AS fileURL:
+Source of the original data AS fileURL:
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-#This is where the full description at the site where the data was obtained:
+This is where the full description at the site where the data was obtained:
 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-#Process
+Process
 
 The script run_analysis.R performs the following process to clean up the data and create tiny data sets:
 
@@ -25,7 +25,7 @@ Merges the features with activity labels and subject IDs. The result is saved as
 
 The average of each measurement for each activity and each subject is merged to a second data set. The result is saved as tidy-UCI-HAR-dataset-AVG.txt.
 
-#Variables
+Variables
 The variables for both files start out with Subject Id in first column, followed by activity name and finally with the measurement aatributes in the next corresponding columns in dataframe.
 Subject ID is from 1-30.
 x <- rbind(x_train, X_test)
@@ -39,7 +39,7 @@ y_test <- read.table("./UCI HAR Dataset/test/y_test.txt", header = FALSE)
 subject_train <- read.table("./UCI HAR Dataset/train/subject_train.txt", header = FALSE)
 subject_test <- read.table("./UCI HAR Dataset/test/subject_test.txt", header = FALSE)
 
-#Output
+Output
 
 #tidy-UCI-HAR-dataset.txt
 
@@ -51,7 +51,7 @@ The last 66 columns are measurements.
 Subject IDs are integers between 1 and 30.
 
 
-#tidy-UCI-HAR-dataset-AVG.txt
+tidy-UCI-HAR-dataset-AVG.txt
 
 tidy-UCI-HAR-dataset-AVG.txt is data frame.
 
