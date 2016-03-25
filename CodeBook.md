@@ -1,6 +1,4 @@
-##This is a CodeBook for Cleaning Data Assignment to 
-##help merge two data sets into one unified data 
-##set
+##This is a CodeBook for Cleaning Data Assignment to help merge two data sets into one unified dataset
 
 
 ####Source of the original data AS fileURL:
